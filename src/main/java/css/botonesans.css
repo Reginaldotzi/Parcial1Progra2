@@ -1,0 +1,32 @@
+.button{
+    -fx-background-color:
+            #b013ff,
+            linear-gradient(#fcfcfc, #8EF3F3),
+            linear-gradient(#0013A5 0%, #0013D1 49%, #0929D1 50%, #0929F3 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.button:hover{
+    -fx-background-color:
+            #FF370F,
+            linear-gradient(#fcfcfc, #8EF3F3),
+            linear-gradient(#0c8fe0 0%, #0a9ab9 49%, #09add2 50%, #04eae3 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.button:pressed{
+    -fx-background-color:
+            #707070,
+            linear-gradient(#fcfcfc, #8EF3F3),
+            linear-gradient(#324FFF 0%, #044FFF 49%, #0417FF 50%, #0417E3 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
